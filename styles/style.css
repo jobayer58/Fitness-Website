@@ -1,0 +1,65 @@
+/* font styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+
+
+}
+
+/* shared style all */
+.text-color {
+    color: rgb(255, 255, 255);
+}
+
+/* shared style in header  */
+.header {
+
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
+}
+
+.nav-bar {
+    display: flex;
+    margin: 55px 200px;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.fitness {
+    color: rgb(230, 83, 60);
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    /* padding: 4px; */
+    /* border: 1px solid rgba(255, 255, 255, 0.1); */
+    border: 1px solid tomato;
+    border-radius: 40px;
+    width: 466px;
+    height: 47px;
+    align-items: center;
+    
+
+}
+
+.ancor {
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 4px;
+
+}
+
+.home {
+    border-radius: 46px;
+    background-color:rgb(230, 83, 60) ;
+}
