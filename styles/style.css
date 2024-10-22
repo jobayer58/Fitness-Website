@@ -274,7 +274,7 @@ nav li a {
     height: 500px;
 }
 
-.run-subject{
+.run-subject {
     margin-left: 50px;
 }
 
@@ -323,12 +323,13 @@ nav li a {
 }
 
 /* membership style */
-.membership{
+.membership {
     align-items: center;
     justify-content: center;
     text-align: center;
 }
-.membership-heading{
+
+.membership-heading {
     font-size: 20px;
     font-weight: 500;
     color: rgb(255, 255, 255);
@@ -337,11 +338,11 @@ nav li a {
     padding: 16px 30px;
     background-color: black;
 }
-.membership-title{
+
+.membership-title {
     font-size: 4rem;
     font-weight: 700;
     color: rgb(255, 255, 255);
-    line-height: ;
     letter-spacing: 1.5;
 }
 
@@ -349,11 +350,11 @@ nav li a {
     display: flex;
     justify-content: center;
     gap: 100px;
-   
+
 
 }
 
-.membership-card-item{
+.membership-card-item {
     background-color: rgb(34, 34, 34);
     width: 370px;
     height: 513px;
@@ -361,43 +362,92 @@ nav li a {
     border-radius: 16px;
     list-style-type: none;
 }
-.membership-card-item> h1{
+
+.membership-card-item>h1 {
     color: rgb(255, 255, 255);
     font-size: 32px;
     font-weight: 700;
+    letter-spacing: 1.5px;
 }
 
-.membership-card-item>  h2{
+.membership-card-item>h2 {
     font-size: 35px;
     font-weight: 300;
     color: rgb(255, 255, 255);
 }
-.membership-card-item> li{
+
+.membership-card-item>li {
     font-size: 27px;
     font-weight: 500;
-    color:rgb(255, 255, 255) ;
+    color: rgb(255, 255, 255);
     line-height: 60px;
-    
+
 }
-.membership-card-item > p{
+
+.membership-card-item>p {
     color: tomato;
     font-size: 19px;
     margin-top: 40px;
 }
 
 /* shared style calculator section */
-.calculate{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.calculate {
+    margin: 100px 500px;
+
 }
 
-.calculate-title{
+.calculate-title {
     color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 48px;
-font-weight: 900;
-line-height: 120%;
-letter-spacing: 0%;
-text-align: left;
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-bottom: 0px;
+}
+
+.calculate-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 34px;
+    letter-spacing: 0.8px;
+
+}
+
+.chokka {
+    background: rgb(34, 34, 34);
+    height: 600px;
+}
+
+.chokka-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.table-title {
+    color: rgb(255, 255, 255);
+    font-size: 38px;
+    font-weight: 900;
+    letter-spacing: 1px;
+
+
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding: 18px 45px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+
+table td {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 19px;
+    font-weight: 400;
+}
+.text-head{
+    color: white;
 }
