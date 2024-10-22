@@ -3,8 +3,9 @@
 
 body {
     font-family: "Inter", sans-serif;
-
-
+    margin: 0;
+    padding: 0;
+    background-color: black;
 }
 
 /* shared style all */
@@ -14,22 +15,28 @@ body {
 
 /* shared style in header  */
 .header {
+    /* background: linear-gradient(0deg, rgb(35, 35, 35),rgba(32, 31, 31, 0.921) 100%); */
+    background: linear-gradient(to bottom, #202020, #0d0d0d);
+    height: 830px;
+}
 
-    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
+.nav-bar,
+.banner {
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .nav-bar {
     display: flex;
-    margin: 55px 200px;
+    margin: 0px 250px;
     align-items: center;
     justify-content: space-between;
-
 
 }
 
 .fitness {
     color: rgb(230, 83, 60);
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     font-weight: 800;
 }
 
@@ -41,14 +48,12 @@ nav li a {
     display: flex;
     list-style: none;
     gap: 50px;
-    /* padding: 4px; */
-    /* border: 1px solid rgba(255, 255, 255, 0.1); */
-    border: 1px solid tomato;
+    padding: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 40px;
-    width: 466px;
+    width: 550px;
     height: 47px;
     align-items: center;
-    
 
 }
 
@@ -61,5 +66,338 @@ nav li a {
 
 .home {
     border-radius: 46px;
-    background-color:rgb(230, 83, 60) ;
+    background-color: rgb(230, 83, 60);
+    padding: 12px 32px;
+}
+
+/* shared style of banner */
+/* font style */
+@font-face {
+    font-family: 'Maima';
+    src: url('Miama.ttf') format('truetype');
+}
+
+.maima {
+    font-family: 'Maima', sans-serif;
+    font-size: 10rem;
+    font-weight: 400;
+
+}
+
+.banner {
+    display: flex;
+    margin: 0px 250px;
+    justify-content: space-between;
+    background-image: url("../images/Images\ 2.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.banner-title {
+    font-size: 6rem;
+    font-weight: 900;
+    gap: 0px;
+    /* line-height:75px; */
+    /* line-height: 0.8; */
+    line-height: 100%;
+    margin-bottom: 0px;
+
+
+}
+
+.banner-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    margin-top: 40px;
+
+}
+
+.btn-1 {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 18px 42px;
+    border: none;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.btn-2 {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 18px 42px;
+    border: none;
+    border-radius: 42px;
+    background-color: #202020;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+
+
+.videos {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 190px;
+    padding: 12px;
+    margin-top: 80px;
+
+}
+
+.videos-count {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 900;
+
+
+}
+
+.videos-title {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    font-weight: 400;
+
+}
+
+.tutorial {
+    margin-top: 240px;
+
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+}
+
+.svg {
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.tutorial-child {
+    margin-left: 20px;
+}
+
+.tutorial-count {
+    color: rgb(250, 250, 249);
+
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 24px;
+
+}
+
+.tutorial-title {
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+/* shared style habit section */
+.habits-banner {
+    margin-top: 100px;
+}
+
+.habits {
+    text-align: center;
+}
+
+.habits-title {
+    color: rgb(255, 255, 255);
+    font-size: 4.5rem;
+    font-weight: 800;
+    line-height: 0;
+
+}
+
+.habits-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 34px;
+
+}
+
+.images-habits {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    margin-top: 70px;
+
+}
+
+.image-bot {
+    /* width: 250px; */
+    border-radius: 50%;
+    width: 80%;
+    border: 4px solid #2a2929;
+    ;
+}
+
+.image-all {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.image-dot {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0.6px;
+}
+
+/* shared style run section*/
+.run-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 150px 220px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    width: 1463px;
+    height: 500px;
+}
+
+.run-subject{
+    margin-left: 50px;
+}
+
+.run-title {
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    font-weight: 800;
+    line-height: 110%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.run-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 34px;
+    letter-spacing: 0.6px;
+
+}
+
+.run-btn {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0px;
+    padding: 26px 50px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    width: 320px;
+
+
+
+}
+
+.run-images {
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.run-img {
+    border-radius: 22px;
+    width: 100%;
+}
+
+/* membership style */
+.membership{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.membership-heading{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    border: 2px solid;
+    border-radius: 16px;
+    padding: 16px 30px;
+    background-color: black;
+}
+.membership-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: ;
+    letter-spacing: 1.5;
+}
+
+.membership-card {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+   
+
+}
+
+.membership-card-item{
+    background-color: rgb(34, 34, 34);
+    width: 370px;
+    height: 513px;
+    text-align: center;
+    border-radius: 16px;
+    list-style-type: none;
+}
+.membership-card-item> h1{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.membership-card-item>  h2{
+    font-size: 35px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+}
+.membership-card-item> li{
+    font-size: 27px;
+    font-weight: 500;
+    color:rgb(255, 255, 255) ;
+    line-height: 60px;
+    
+}
+.membership-card-item > p{
+    color: tomato;
+    font-size: 19px;
+    margin-top: 40px;
+}
+
+/* shared style calculator section */
+.calculate{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.calculate-title{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
 }
