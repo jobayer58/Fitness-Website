@@ -1,0 +1,40 @@
+@media screen and (max-width:576px) {
+    .nav-bar{
+        flex-direction: column;
+    }
+    .banner{
+        width: 400px;
+        width: 100%;
+    }
+    .banner-title{
+        font-size: 38px;
+        justify-content: space-evenly;
+    }
+    .habits{
+        display: flex;
+        flex-direction: column;
+    }
+    .images-habits{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .image-bot{
+        width: 50%;
+    }
+    .run-banner{
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        height: 1000px;
+        margin: 20px auto 170px auto;
+    }
+    .run-images{
+        margin: 20px  20px;
+        
+    }
+    .membership-card{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0px 85px;
+    }
+}

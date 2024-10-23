@@ -91,7 +91,6 @@ nav li a {
     background-image: url("../images/Images\ 2.png");
     background-repeat: no-repeat;
     background-position: right;
-
 }
 
 .banner-title {
@@ -102,6 +101,7 @@ nav li a {
     /* line-height: 0.8; */
     line-height: 100%;
     margin-bottom: 0px;
+    
 
 
 }
@@ -170,11 +170,9 @@ nav li a {
 
 .tutorial {
     margin-top: 240px;
-
     display: flex;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
-
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
 }
@@ -218,7 +216,7 @@ nav li a {
     color: rgb(255, 255, 255);
     font-size: 4.5rem;
     font-weight: 800;
-    line-height: 0;
+    margin-bottom: 0px;
 
 }
 
