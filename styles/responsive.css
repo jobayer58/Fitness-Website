@@ -2,14 +2,38 @@
     .nav-bar{
         flex-direction: column;
     }
+    .header{
+        height: 720px;
+    }
     .banner{
         width: 100%;
-    }
-    .banner-title{
-        font-size: 38px;
         
     }
-    /* all responsive is good */
+    .maima{
+        font-size: 5.5rem;
+    }
+    .banner-title{
+        font-size: 3.5rem;
+        line-height: 55px;
+        letter-spacing: 2px;
+    }
+    .banner-description > br {
+        font-size: 15px;
+        display: none;
+    }
+
+    .picture{
+        display: none;
+    }
+    .banner-left{
+        margin-left: 30px;
+    }
+    .banner{
+        background-image: none;
+        width: 100%;
+        margin: auto;
+    }
+    /* all responsive is good except the above */
     .habits{
         display: flex;
         flex-direction: column;
@@ -25,8 +49,14 @@
         display: flex;
         flex-direction: column;
         width: 450px;
-        height: 1000px;
+        height: 800px;
         margin: 20px auto 170px auto;
+    }
+    .run-title{
+        font-size: 3.4rem;
+    }
+    .run-btn{
+        width: 360px;
     }
     .run-images{
         margin: 20px  20px;
