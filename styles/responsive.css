@@ -3,13 +3,13 @@
         flex-direction: column;
     }
     .banner{
-        width: 400px;
         width: 100%;
     }
     .banner-title{
         font-size: 38px;
-        justify-content: space-evenly;
+        
     }
+    /* all responsive is good */
     .habits{
         display: flex;
         flex-direction: column;
@@ -36,5 +36,53 @@
         display: grid;
         grid-template-columns: repeat(1,1fr);
         margin: 0px 85px;
+    }
+
+    .calculate {
+        margin: 0px auto;
+        margin-left: 20px;
+    
+    }
+    .chokka-box{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        margin-left: 20px;
+    }
+    .chokka{
+        height: 1150px;
+    }
+    .input-group{
+        gap: 20px;
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    input,select{
+        padding:22px 30px ;
+    }
+    .team-section{
+        height: 2850px;
+    }
+    .team-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .team-container{
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    footer{
+        height: 1380px;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+    .hr{
+        width: 460px;
     }
 }
