@@ -561,30 +561,39 @@ select option {
 .team-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    justify-content: space-evenly;
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
+    max-width: 1400px;
+    width: 100%;
+    margin: 10px 250px;
 }
 
 .team-member {
     position: relative;
     overflow: hidden;
     border-radius: 10px;
+    margin: 14px;
 }
 
 .team-member img {
-    width: 80%;
-    height: 450px;
+    width: 100%;
+    height: 400px;
     object-fit: cover;
     display: block;
     border-radius: 20px;
+    
 }
 
 .team-section p {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     margin-bottom: 30px;
-    color: #ccc;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.team-section h3{
+    font-size:1.5rem ;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
 }
 
 .member-info {
@@ -592,8 +601,7 @@ select option {
     bottom: 0;
     left: 0;
     width: 100%;
-    padding: 10px;
-    color: #fff;
+    padding: 20px;
 }
 
 .member-info h3,
